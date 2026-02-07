@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Senior Full Stack Developer",
+    "company": "TechCorp Inc",
+    "location": "San Francisco, CA",
+    "description": "We are seeking an experienced Full Stack Developer to join our team. You will work on building scalable web applications using modern technologies. Experience with React, Node.js, and Python is required.",
+    "requirements": "5+ years of experience in full stack development. Strong proficiency in JavaScript, React, Node.js, Python, and SQL databases. Experience with cloud platforms (AWS/Azure). Knowledge of microservices architecture and RESTful APIs.",
+    "salary_range": "$120,000 - $160,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "AI Solutions Ltd",
+    "location": "Boston, MA",
+    "description": "Join our ML team to build production-grade machine learning systems. Work on classical ML algorithms, model deployment, and data pipelines.",
+    "requirements": "3+ years ML experience. Strong Python skills with scikit-learn, pandas, numpy. Experience with SQL and data preprocessing. Knowledge of model deployment and MLOps. Understanding of classical ML algorithms (regression, clustering, classification).",
+    "salary_range": "$130,000 - $170,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "WebDesign Studio",
+    "location": "Remote",
+    "description": "We need a talented Frontend Developer to create beautiful, responsive user interfaces. You'll work with React, TypeScript, and Tailwind CSS to build modern web applications.",
+    "requirements": "2+ years frontend development experience. Expert in React.js and TypeScript. Proficiency in HTML5, CSS3, and Tailwind CSS. Understanding of responsive design and cross-browser compatibility. Experience with Git and agile methodologies.",
+    "salary_range": "$90,000 - $120,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "DataMetrics Corp",
+    "location": "New York, NY",
+    "description": "Seeking a Data Analyst to help derive insights from our data. You'll create dashboards, perform statistical analysis, and support data-driven decision making.",
+    "requirements": "2+ years in data analysis. Strong SQL skills. Experience with Python (pandas, matplotlib) or R. Proficiency in Excel and data visualization tools (Tableau, Power BI). Understanding of statistics and A/B testing.",
+    "salary_range": "$75,000 - $100,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Backend Developer",
+    "company": "ServerTech Solutions",
+    "location": "Austin, TX",
+    "description": "We're looking for a Backend Developer to design and implement server-side logic. Work with Python, FastAPI, and PostgreSQL to build robust APIs.",
+    "requirements": "3+ years backend development. Strong Python skills with FastAPI or Django. Experience with PostgreSQL, MongoDB, or other databases. Knowledge of RESTful API design, authentication, and security best practices. Docker experience is a plus.",
+    "salary_range": "$105,000 - $140,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "CloudOps Inc",
+    "location": "Seattle, WA",
+    "description": "Join our DevOps team to automate infrastructure and improve deployment pipelines. Work with AWS, Docker, Kubernetes, and CI/CD tools.",
+    "requirements": "3+ years DevOps experience. Strong knowledge of AWS or Azure. Proficiency with Docker and Kubernetes. Experience with Jenkins, GitLab CI, or similar CI/CD tools. Scripting skills in Python or Bash. Infrastructure as Code (Terraform) experience.",
+    "salary_range": "$115,000 - $150,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Python Developer",
+    "company": "CodeCraft LLC",
+    "location": "Chicago, IL",
+    "description": "We need a Python Developer to build backend services and data processing pipelines. You'll work on automation, API development, and data engineering tasks.",
+    "requirements": "2+ years Python development. Experience with Flask or FastAPI. Knowledge of SQL and NoSQL databases. Familiarity with pandas, requests, and other Python libraries. Understanding of software testing and version control (Git).",
+    "salary_range": "$85,000 - $115,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "React Developer",
+    "company": "Interactive Media",
+    "location": "Los Angeles, CA",
+    "description": "Looking for a React Developer to create engaging user interfaces. Build reusable components and implement state management with Redux or Context API.",
+    "requirements": "2+ years React development. Strong JavaScript and ES6+ knowledge. Experience with React Hooks, Context API, and state management. Proficiency in CSS and responsive design. Familiarity with testing libraries (Jest, React Testing Library).",
+    "salary_range": "$95,000 - $125,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Database Administrator",
+    "company": "DataGuard Systems",
+    "location": "Denver, CO",
+    "description": "Seeking a DBA to manage and optimize our database systems. Ensure data integrity, performance, and security across PostgreSQL and MySQL databases.",
+    "requirements": "3+ years as DBA. Expert in PostgreSQL and MySQL. Experience with database performance tuning, backup/recovery, and replication. Knowledge of database security and compliance. Scripting skills in SQL and Python.",
+    "salary_range": "$100,000 - $130,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Quality Assurance Engineer",
+    "company": "TestPro Solutions",
+    "location": "Remote",
+    "description": "Join our QA team to ensure software quality through automated and manual testing. Create test plans, write test cases, and implement test automation.",
+    "requirements": "2+ years QA experience. Knowledge of test automation frameworks (Selenium, Pytest). Experience with API testing (Postman). Understanding of agile methodologies and CI/CD. Familiarity with Python or JavaScript for test scripting.",
+    "salary_range": "$70,000 - $95,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "UI/UX Designer",
+    "company": "Creative Designs Co",
+    "location": "Portland, OR",
+    "description": "We're seeking a UI/UX Designer to create intuitive and beautiful user experiences. Work on wireframes, prototypes, and high-fidelity designs.",
+    "requirements": "3+ years UI/UX design experience. Proficiency in Figma, Adobe XD, or Sketch. Strong portfolio demonstrating user-centered design. Understanding of user research, usability testing, and design systems. Basic knowledge of HTML/CSS is a plus.",
+    "salary_range": "$80,000 - $110,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Cloud Solutions Architect",
+    "company": "CloudFirst Technologies",
+    "location": "Dallas, TX",
+    "description": "Design and implement cloud infrastructure solutions for enterprise clients. Work with AWS, Azure, and multi-cloud architectures.",
+    "requirements": "5+ years experience in cloud architecture. AWS or Azure certification required. Deep knowledge of cloud services, networking, and security. Experience with infrastructure as code (Terraform, CloudFormation). Strong communication skills for client interaction.",
+    "salary_range": "$140,000 - $180,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Mobile App Developer",
+    "company": "AppInnovate Inc",
+    "location": "Miami, FL",
+    "description": "Develop cross-platform mobile applications using React Native. Build features, optimize performance, and ensure great user experience on iOS and Android.",
+    "requirements": "2+ years mobile development experience. Strong JavaScript and React Native skills. Experience with iOS and Android deployment. Knowledge of mobile UI/UX best practices. Familiarity with native modules and third-party libraries.",
+    "salary_range": "$90,000 - $120,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Scrum Master",
+    "company": "AgileWorks LLC",
+    "location": "Remote",
+    "description": "Lead agile teams as a Scrum Master. Facilitate ceremonies, remove impediments, and coach teams on agile principles and practices.",
+    "requirements": "3+ years as Scrum Master. Certified Scrum Master (CSM) preferred. Experience facilitating scrum ceremonies and managing sprints. Strong knowledge of agile methodologies and Jira. Excellent communication and conflict resolution skills.",
+    "salary_range": "$95,000 - $125,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "System Administrator",
+    "company": "IT Infrastructure Corp",
+    "location": "Phoenix, AZ",
+    "description": "Manage and maintain IT infrastructure including servers, networks, and systems. Ensure uptime, security, and performance of critical systems.",
+    "requirements": "3+ years as Systems Administrator. Experience with Linux and Windows Server. Knowledge of networking, firewalls, and security. Scripting skills in Bash or PowerShell. Experience with virtualization (VMware, Hyper-V).",
+    "salary_range": "$75,000 - $100,000",
+    "job_type": "Full-time"
+  }
+]

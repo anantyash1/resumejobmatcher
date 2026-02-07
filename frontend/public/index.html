@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta
+      name="description"
+      content="Resume Job Matcher - Find your perfect job match using AI-powered classical ML algorithms"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Preconnect to API for faster requests -->
+    <link rel="preconnect" href="http://localhost:8000" />
+    
+    <!-- Fonts - Professional and clean -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" 
+      rel="stylesheet"
+    />
+    
+    <title>JobMatch - AI-Powered Resume to Job Matching</title>
+    
+    <style>
+      /* Base font styling */
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+        padding: 0;
+      }
+      
+      code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+          monospace;
+      }
+      
+      /* Loading screen */
+      #root-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        z-index: 9999;
+        transition: opacity 0.3s ease-out;
+      }
+      
+      #root-loader.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      .loader-icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 24px;
+      }
+      
+      .loader-icon svg {
+        width: 100%;
+        height: 100%;
+        fill: white;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      @keyframes pulse {
+        0%, 100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.5;
+          transform: scale(0.95);
+        }
+      }
+      
+      .loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top-color: white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
+      .loader-text {
+        margin-top: 24px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+      
+      /* Smooth scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Remove default margin */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this application.</noscript>
+    
+    <!-- Loading screen -->
+    <div id="root-loader">
+      <div class="loader-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+        </svg>
+      </div>
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Loading JobMatch...</div>
+    </div>
+    
+    <!-- React root -->
+    <div id="root"></div>
+    
+    <script>
+      // Hide loader when app loads
+      window.addEventListener('load', function() {
+        const loader = document.getElementById('root-loader');
+        setTimeout(function() {
+          loader.classList.add('hidden');
+          setTimeout(function() {
+            loader.style.display = 'none';
+          }, 300);
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
