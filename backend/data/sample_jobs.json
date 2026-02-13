@@ -2,6 +2,7 @@
   {
     "title": "Senior Full Stack Developer",
     "company": "TechCorp Inc",
+    "company_email": "hr@techcorp.com",
     "location": "San Francisco, CA",
     "description": "We are seeking an experienced Full Stack Developer to join our team. You will work on building scalable web applications using modern technologies. Experience with React, Node.js, and Python is required.",
     "requirements": "5+ years of experience in full stack development. Strong proficiency in JavaScript, React, Node.js, Python, and SQL databases. Experience with cloud platforms (AWS/Azure). Knowledge of microservices architecture and RESTful APIs.",
@@ -11,6 +12,7 @@
   {
     "title": "Machine Learning Engineer",
     "company": "AI Solutions Ltd",
+    "company_email": "careers@aisolutions.com",
     "location": "Boston, MA",
     "description": "Join our ML team to build production-grade machine learning systems. Work on classical ML algorithms, model deployment, and data pipelines.",
     "requirements": "3+ years ML experience. Strong Python skills with scikit-learn, pandas, numpy. Experience with SQL and data preprocessing. Knowledge of model deployment and MLOps. Understanding of classical ML algorithms (regression, clustering, classification).",
@@ -20,6 +22,7 @@
   {
     "title": "Frontend Developer",
     "company": "WebDesign Studio",
+    "company_email": "jobs@webdesignstudio.com",
     "location": "Remote",
     "description": "We need a talented Frontend Developer to create beautiful, responsive user interfaces. You'll work with React, TypeScript, and Tailwind CSS to build modern web applications.",
     "requirements": "2+ years frontend development experience. Expert in React.js and TypeScript. Proficiency in HTML5, CSS3, and Tailwind CSS. Understanding of responsive design and cross-browser compatibility. Experience with Git and agile methodologies.",
@@ -29,6 +32,7 @@
   {
     "title": "Data Analyst",
     "company": "DataMetrics Corp",
+    "company_email": "talent@datametrics.com",
     "location": "New York, NY",
     "description": "Seeking a Data Analyst to help derive insights from our data. You'll create dashboards, perform statistical analysis, and support data-driven decision making.",
     "requirements": "2+ years in data analysis. Strong SQL skills. Experience with Python (pandas, matplotlib) or R. Proficiency in Excel and data visualization tools (Tableau, Power BI). Understanding of statistics and A/B testing.",
@@ -38,6 +42,7 @@
   {
     "title": "Backend Developer",
     "company": "ServerTech Solutions",
+    "company_email": "hiring@servertechsolutions.com",
     "location": "Austin, TX",
     "description": "We're looking for a Backend Developer to design and implement server-side logic. Work with Python, FastAPI, and PostgreSQL to build robust APIs.",
     "requirements": "3+ years backend development. Strong Python skills with FastAPI or Django. Experience with PostgreSQL, MongoDB, or other databases. Knowledge of RESTful API design, authentication, and security best practices. Docker experience is a plus.",
@@ -47,6 +52,7 @@
   {
     "title": "DevOps Engineer",
     "company": "CloudOps Inc",
+    "company_email": "careers@cloudopsinc.com",
     "location": "Seattle, WA",
     "description": "Join our DevOps team to automate infrastructure and improve deployment pipelines. Work with AWS, Docker, Kubernetes, and CI/CD tools.",
     "requirements": "3+ years DevOps experience. Strong knowledge of AWS or Azure. Proficiency with Docker and Kubernetes. Experience with Jenkins, GitLab CI, or similar CI/CD tools. Scripting skills in Python or Bash. Infrastructure as Code (Terraform) experience.",
@@ -56,6 +62,7 @@
   {
     "title": "Python Developer",
     "company": "CodeCraft LLC",
+    "company_email": "jobs@codecraft.com",
     "location": "Chicago, IL",
     "description": "We need a Python Developer to build backend services and data processing pipelines. You'll work on automation, API development, and data engineering tasks.",
     "requirements": "2+ years Python development. Experience with Flask or FastAPI. Knowledge of SQL and NoSQL databases. Familiarity with pandas, requests, and other Python libraries. Understanding of software testing and version control (Git).",
@@ -65,6 +72,7 @@
   {
     "title": "React Developer",
     "company": "Interactive Media",
+    "company_email": "recruit@interactivemedia.com",
     "location": "Los Angeles, CA",
     "description": "Looking for a React Developer to create engaging user interfaces. Build reusable components and implement state management with Redux or Context API.",
     "requirements": "2+ years React development. Strong JavaScript and ES6+ knowledge. Experience with React Hooks, Context API, and state management. Proficiency in CSS and responsive design. Familiarity with testing libraries (Jest, React Testing Library).",
@@ -74,6 +82,7 @@
   {
     "title": "Database Administrator",
     "company": "DataGuard Systems",
+    "company_email": "hr@dataguardsystems.com",
     "location": "Denver, CO",
     "description": "Seeking a DBA to manage and optimize our database systems. Ensure data integrity, performance, and security across PostgreSQL and MySQL databases.",
     "requirements": "3+ years as DBA. Expert in PostgreSQL and MySQL. Experience with database performance tuning, backup/recovery, and replication. Knowledge of database security and compliance. Scripting skills in SQL and Python.",
@@ -83,6 +92,7 @@
   {
     "title": "Quality Assurance Engineer",
     "company": "TestPro Solutions",
+    "company_email": "careers@testprosolutions.com",
     "location": "Remote",
     "description": "Join our QA team to ensure software quality through automated and manual testing. Create test plans, write test cases, and implement test automation.",
     "requirements": "2+ years QA experience. Knowledge of test automation frameworks (Selenium, Pytest). Experience with API testing (Postman). Understanding of agile methodologies and CI/CD. Familiarity with Python or JavaScript for test scripting.",
@@ -92,6 +102,7 @@
   {
     "title": "UI/UX Designer",
     "company": "Creative Designs Co",
+    "company_email": "talent@creativedesignsco.com",
     "location": "Portland, OR",
     "description": "We're seeking a UI/UX Designer to create intuitive and beautiful user experiences. Work on wireframes, prototypes, and high-fidelity designs.",
     "requirements": "3+ years UI/UX design experience. Proficiency in Figma, Adobe XD, or Sketch. Strong portfolio demonstrating user-centered design. Understanding of user research, usability testing, and design systems. Basic knowledge of HTML/CSS is a plus.",
@@ -101,6 +112,7 @@
   {
     "title": "Cloud Solutions Architect",
     "company": "CloudFirst Technologies",
+    "company_email": "hiring@cloudfirsttech.com",
     "location": "Dallas, TX",
     "description": "Design and implement cloud infrastructure solutions for enterprise clients. Work with AWS, Azure, and multi-cloud architectures.",
     "requirements": "5+ years experience in cloud architecture. AWS or Azure certification required. Deep knowledge of cloud services, networking, and security. Experience with infrastructure as code (Terraform, CloudFormation). Strong communication skills for client interaction.",
@@ -110,6 +122,7 @@
   {
     "title": "Mobile App Developer",
     "company": "AppInnovate Inc",
+    "company_email": "jobs@appinnovate.com",
     "location": "Miami, FL",
     "description": "Develop cross-platform mobile applications using React Native. Build features, optimize performance, and ensure great user experience on iOS and Android.",
     "requirements": "2+ years mobile development experience. Strong JavaScript and React Native skills. Experience with iOS and Android deployment. Knowledge of mobile UI/UX best practices. Familiarity with native modules and third-party libraries.",
@@ -119,6 +132,7 @@
   {
     "title": "Scrum Master",
     "company": "AgileWorks LLC",
+    "company_email": "careers@agileworks.com",
     "location": "Remote",
     "description": "Lead agile teams as a Scrum Master. Facilitate ceremonies, remove impediments, and coach teams on agile principles and practices.",
     "requirements": "3+ years as Scrum Master. Certified Scrum Master (CSM) preferred. Experience facilitating scrum ceremonies and managing sprints. Strong knowledge of agile methodologies and Jira. Excellent communication and conflict resolution skills.",
@@ -128,10 +142,171 @@
   {
     "title": "System Administrator",
     "company": "IT Infrastructure Corp",
+    "company_email": "hr@itinfrastructurecorp.com",
     "location": "Phoenix, AZ",
     "description": "Manage and maintain IT infrastructure including servers, networks, and systems. Ensure uptime, security, and performance of critical systems.",
     "requirements": "3+ years as Systems Administrator. Experience with Linux and Windows Server. Knowledge of networking, firewalls, and security. Scripting skills in Bash or PowerShell. Experience with virtualization (VMware, Hyper-V).",
     "salary_range": "$75,000 - $100,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "company": "SecureNet Solutions",
+    "company_email": "careers@securenetsolutions.com",
+    "location": "Washington, DC",
+    "description": "Protect our organization from cyber threats. Monitor security systems, investigate incidents, and implement security best practices.",
+    "requirements": "3+ years in cybersecurity. Knowledge of security frameworks (NIST, ISO 27001). Experience with SIEM tools, firewalls, and IDS/IPS. Understanding of threat intelligence and incident response. Security certifications (CISSP, CEH) preferred.",
+    "salary_range": "$110,000 - $145,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Product Manager",
+    "company": "InnovateTech Hub",
+    "company_email": "pm@innovatetech.com",
+    "location": "San Jose, CA",
+    "description": "Lead product strategy and roadmap for our flagship products. Work with cross-functional teams to deliver customer-centric solutions.",
+    "requirements": "4+ years product management experience. Strong analytical and strategic thinking skills. Experience with agile methodologies. Excellent communication and stakeholder management. Technical background preferred.",
+    "salary_range": "$125,000 - $165,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "BigData Analytics",
+    "company_email": "talent@bigdataanalytics.com",
+    "location": "Atlanta, GA",
+    "description": "Build and maintain data pipelines and infrastructure. Work with big data technologies to process and analyze large datasets.",
+    "requirements": "3+ years data engineering experience. Strong Python and SQL skills. Experience with Spark, Hadoop, or similar big data tools. Knowledge of ETL processes and data warehousing. Cloud platform experience (AWS, GCP).",
+    "salary_range": "$115,000 - $150,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Software Architect",
+    "company": "Enterprise Solutions Group",
+    "company_email": "hiring@enterprisesolutionsgroup.com",
+    "location": "Boston, MA",
+    "description": "Design scalable software architectures for enterprise applications. Lead technical decisions and mentor development teams.",
+    "requirements": "7+ years software development with 3+ years architecture experience. Deep understanding of design patterns and best practices. Experience with microservices, distributed systems. Strong leadership and communication skills.",
+    "salary_range": "$155,000 - $200,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Blockchain Developer",
+    "company": "CryptoTech Innovations",
+    "company_email": "jobs@cryptotechinnovations.com",
+    "location": "Remote",
+    "description": "Develop decentralized applications and smart contracts. Work with Ethereum, Solidity, and blockchain technologies.",
+    "requirements": "2+ years blockchain development. Strong Solidity and Web3.js experience. Understanding of blockchain architecture and consensus mechanisms. Experience with DeFi or NFT projects preferred.",
+    "salary_range": "$120,000 - $160,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Technical Writer",
+    "company": "DocuPro Services",
+    "company_email": "careers@docuproservices.com",
+    "location": "Remote",
+    "description": "Create clear and comprehensive technical documentation. Write user guides, API documentation, and knowledge base articles.",
+    "requirements": "2+ years technical writing experience. Excellent written communication skills. Familiarity with software development concepts. Experience with documentation tools (Markdown, Confluence). Ability to understand complex technical topics.",
+    "salary_range": "$70,000 - $95,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Business Intelligence Developer",
+    "company": "DataViz Solutions",
+    "company_email": "hr@datavizsolutions.com",
+    "location": "Minneapolis, MN",
+    "description": "Build BI solutions and dashboards to drive business insights. Work with Power BI, Tableau, and SQL to visualize data.",
+    "requirements": "3+ years BI development. Expert in Power BI or Tableau. Strong SQL and data modeling skills. Experience with data warehousing concepts. Ability to translate business requirements into technical solutions.",
+    "salary_range": "$95,000 - $125,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "company": "ReliableSystems Inc",
+    "company_email": "sre@reliablesystems.com",
+    "location": "San Francisco, CA",
+    "description": "Ensure reliability and performance of production systems. Implement monitoring, automation, and incident response procedures.",
+    "requirements": "3+ years SRE or DevOps experience. Strong Linux and networking knowledge. Experience with monitoring tools (Prometheus, Grafana). Proficiency in scripting (Python, Go). Understanding of distributed systems.",
+    "salary_range": "$130,000 - $170,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Machine Learning Research Scientist",
+    "company": "AI Research Labs",
+    "company_email": "research@airesearchlabs.com",
+    "location": "Palo Alto, CA",
+    "description": "Conduct cutting-edge ML research and develop novel algorithms. Publish papers and contribute to open-source projects.",
+    "requirements": "PhD in Computer Science or related field. Strong publication record in ML conferences. Expertise in deep learning frameworks (PyTorch, TensorFlow). Experience with NLP, computer vision, or reinforcement learning.",
+    "salary_range": "$150,000 - $220,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Game Developer",
+    "company": "PixelPlay Studios",
+    "company_email": "jobs@pixelplaystudios.com",
+    "location": "Los Angeles, CA",
+    "description": "Develop engaging games for mobile and PC platforms. Work with Unity or Unreal Engine to create immersive experiences.",
+    "requirements": "2+ years game development experience. Proficiency in Unity or Unreal Engine. Strong C# or C++ skills. Understanding of game design principles. Portfolio of shipped games preferred.",
+    "salary_range": "$85,000 - $120,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "IoT Engineer",
+    "company": "SmartDevices Tech",
+    "company_email": "careers@smartdevicestech.com",
+    "location": "Austin, TX",
+    "description": "Design and develop IoT solutions for smart home and industrial applications. Work with embedded systems and cloud platforms.",
+    "requirements": "3+ years IoT development. Experience with embedded systems (Arduino, Raspberry Pi). Knowledge of IoT protocols (MQTT, CoAP). Proficiency in C/C++ and Python. Understanding of cloud IoT platforms (AWS IoT, Azure IoT).",
+    "salary_range": "$100,000 - $135,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Network Engineer",
+    "company": "NetConnect Solutions",
+    "company_email": "hr@netconnectsolutions.com",
+    "location": "Chicago, IL",
+    "description": "Design, implement, and maintain network infrastructure. Troubleshoot network issues and optimize performance.",
+    "requirements": "3+ years network engineering experience. CCNA or CCNP certification. Strong knowledge of routing, switching, and network security. Experience with Cisco, Juniper equipment. Understanding of SD-WAN and cloud networking.",
+    "salary_range": "$90,000 - $125,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Full Stack JavaScript Developer",
+    "company": "NodeJS Experts",
+    "company_email": "talent@nodejsexperts.com",
+    "location": "Remote",
+    "description": "Build modern web applications using JavaScript stack. Work with React, Node.js, Express, and MongoDB.",
+    "requirements": "3+ years full stack JavaScript development. Expert in React and Node.js. Experience with Express and MongoDB. Knowledge of RESTful APIs and GraphQL. Understanding of modern JavaScript (ES6+).",
+    "salary_range": "$105,000 - $140,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "company": "VisionAI Labs",
+    "company_email": "careers@visionailabs.com",
+    "location": "Seattle, WA",
+    "description": "Develop computer vision algorithms for image and video analysis. Work on object detection, segmentation, and recognition tasks.",
+    "requirements": "3+ years computer vision experience. Strong Python and OpenCV skills. Experience with deep learning frameworks. Knowledge of CNN architectures. Understanding of image processing techniques.",
+    "salary_range": "$125,000 - $165,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Salesforce Developer",
+    "company": "CRM Solutions Pro",
+    "company_email": "jobs@crmsolutionspro.com",
+    "location": "New York, NY",
+    "description": "Develop and customize Salesforce applications. Build integrations and automate business processes.",
+    "requirements": "2+ years Salesforce development. Salesforce certifications (Platform Developer I/II). Strong Apex and Visualforce skills. Experience with Lightning Web Components. Knowledge of Salesforce APIs and integrations.",
+    "salary_range": "$95,000 - $130,000",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Ruby on Rails Developer",
+    "company": "RailsWorks Inc",
+    "company_email": "hiring@railsworks.com",
+    "location": "Portland, OR",
+    "description": "Build web applications using Ruby on Rails framework. Develop features, optimize performance, and maintain code quality.",
+    "requirements": "3+ years Rails development. Strong Ruby and Rails framework knowledge. Experience with PostgreSQL and Redis. Understanding of MVC architecture. Familiarity with testing frameworks (RSpec).",
+    "salary_range": "$100,000 - $135,000",
     "job_type": "Full-time"
   }
 ]

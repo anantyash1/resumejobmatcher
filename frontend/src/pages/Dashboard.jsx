@@ -180,7 +180,7 @@
 
 
 
-
+//dashboard.jsx
 
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
@@ -485,14 +485,14 @@ const Dashboard = () => {
             ) : jobs.length > 0 ? (
               <div className="space-y-6">
                 {jobs.map((job, index) => (
-                  <div 
-                    key={job.id}
-                    className="opacity-0 animate-fade-in"
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    <JobCard job={job} />
-                  </div>
-                ))}
+  <div 
+    key={job.id}
+    className="opacity-0 animate-fade-in"
+    style={{ animationDelay: `${index * 100}ms` }}
+  >
+    <JobCard job={job} selectedResumeId={selectedResume?.id} />
+  </div>
+))}
                 
                 {/* View More Button */}
                 <div className="flex justify-center pt-4">

@@ -4,14 +4,24 @@ import Landing from './pages/landing';
 import Login from './pages/login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
+import HRLogin from './pages/HRLogin';
+import HRDashboard from './pages/HRDashboard';
 
 function App() {
   const isAuthenticated = () => {
     return localStorage.getItem('token') !== null;
   };
 
+  const isHRAuthenticated = () => {
+    return localStorage.getItem('hrToken') !== null;
+  };
+
   const PrivateRoute = ({ children }) => {
     return isAuthenticated() ? children : <Navigate to="/login" />;
+  };
+
+  const HRPrivateRoute = ({ children }) => {
+    return isHRAuthenticated() ? children : <Navigate to="/hr/login" />;
   };
 
   return (
@@ -20,12 +30,21 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/hr/login" element={<HRLogin />} />
         <Route 
           path="/dashboard" 
           element={
             <PrivateRoute>
               <Dashboard />
             </PrivateRoute>
+          } 
+        />
+        <Route 
+          path="/hr/dashboard" 
+          element={
+            <HRPrivateRoute>
+              <HRDashboard />
+            </HRPrivateRoute>
           } 
         />
       </Routes>

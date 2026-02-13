@@ -167,26 +167,27 @@ const Landing = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                onClick={() => navigate('/register')}
-                className="btn-primary glow-effect group"
-              >
-                <span className="flex items-center gap-2">
-                  Get Started Free
-                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </button>
-              
-              <button
-                onClick={() => navigate('/login')}
-                className="btn-secondary group"
-              >
-                <span className="flex items-center gap-2">
-                  Sign In
-                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </button>
-            </div>
+  <button
+    onClick={() => navigate('/register')}
+    className="bg-white text-blue-600 font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
+  >
+    Get Started Free
+  </button>
+  
+  <button
+    onClick={() => navigate('/login')}
+    className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition-all duration-200"
+  >
+    Sign In
+  </button>
+  
+  <button
+    onClick={() => navigate('/hr/login')}
+    className="bg-gradient-to-r from-red-600 to-pink-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
+  >
+    HR Portal
+  </button>
+</div>
           </div>
         </div>
       </div>

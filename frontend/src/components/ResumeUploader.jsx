@@ -59,7 +59,7 @@ const ResumeUploader = ({ onUploadSuccess }) => {
 
   return (
     <div className="card">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4">Upload Your Resume</h2>
+      <h2 className="text-2xl font-bold text-gray-500 mb-4">Upload Your Resume</h2>
       
       <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-blue-500 transition-colors">
         <Upload className="h-12 w-12 text-gray-400 mx-auto mb-4" />
