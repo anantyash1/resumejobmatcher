@@ -1,17 +1,17 @@
-from sqlalchemy import create_engine, event
+from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from .config import get_settings
 
 settings = get_settings()
 
-# PostgreSQL connection
+# Use fixed database URL (handles Render's postgres:// vs postgresql://)
 engine = create_engine(
-    settings.DATABASE_URL,
-    pool_pre_ping=True,  # Verify connections before using
-    pool_size=10,  # Connection pool size
-    max_overflow=20,  # Max overflow connections
-    echo=False  # Set to True for SQL debugging
+    settings.database_url_fixed,  # Use the fixed property
+    pool_pre_ping=True,
+    pool_size=10,
+    max_overflow=20,
+    echo=False
 )
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -20,9 +20,9 @@ Base = declarative_base()
 
 def init_db():
     """Initialize database - create all tables"""
-    from . import models  # Import models
+    from . import models
     Base.metadata.create_all(bind=engine)
-    print("✓ PostgreSQL database tables created")
+    print("✓ Database tables created")
 
 
 def get_db():

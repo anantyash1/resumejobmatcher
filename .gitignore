@@ -1,31 +1,39 @@
+# Create comprehensive .gitignore
+@"
 # Python
-__pycache__/          
-*.py[cod]             
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
 .Python
-env/
-venv/
-.venv/                
-*.env                 
-.env.*
-!.env.example
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/.env.local
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/resume_matcher.db*
 
-# Root node_modules (just in case)
-/node_modules/
-
-# Backend uploads
-backend/uploads/      
-
-# Frontend
+# Node
 frontend/node_modules/
 frontend/build/
 frontend/.env.local
-frontend/.env.*       
+frontend/.env.production.local
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+"@ | Out-File -FilePath .gitignore -Encoding utf8
